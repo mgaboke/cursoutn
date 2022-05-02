@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: aliceblue;
+    font-size: 14px;
+    font-family: "Poppins", Arial, sans-serif, helvetica;
+}
+
+.wrap{
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+form{
+    width: 100%;
+    margin: 200px 0 50px;
+    padding: 20px;
+    background: #f2f2f2;
+    overflow: hidden;
+    box-shadow: 0 0 3px grey;
+    border-top: 4px solid #536dfe;
+    border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    border: 1px solid #536dfe;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-family: "Poppins", Arial, SansSerif, helvetica;
+    font-size: 1em;
+    color: #141938;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form textarea:focus{
+    border: 2px solid #3f51b5;
+    padding: 9px;
+}
+
+form textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 150px;
+}
+
+.alert {
+    padding: 1em;
+    color: #FFF;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.alert.error {
+    background: #f2dede;
+    border: 1px solid #a94442;
+    color: #a94442;
+}
+
+.alert.success {
+    background: #d2f3d4;
+    border: 1px solid #37793a;
+    color: #37793a;
+}
+
+.btn,
+form input[type="submit"]{
+    padding: 15px;
+    background: #ed572a;
+    color: #e1e9fa;
+    font-size: 1em;
+    font-family: "Poppins", Arial, SansSerif, helvetica;
+    border-radius: 2px;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background: #e64a19;
+}
+.fixed-header
+{
+    font-family: "Poppins", Arial, SansSerif, helvetica;
+    font-size: 2em;
+    width: 100%;
+    position: fixed;
+    background: #333;
+    padding: 40px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    font-size: 1em;
+    color: #fff;
+    padding: 7px 25px;
+    display: inline-block;
+}
